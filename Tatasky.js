@@ -10,7 +10,7 @@ class Tatasky extends React.Component{
 
     render(){
         return(
-            <View style={{backgroundColor:"grey"}}>
+            <View style={{backgroundColor:"grey",flex:1}}>
                 <View style={styles.recharge}>
                   <Text style={styles.rechargeText}>Recharge</Text>  
                 </View>
